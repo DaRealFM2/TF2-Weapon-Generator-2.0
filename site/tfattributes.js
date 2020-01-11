@@ -223,6 +223,18 @@ var tfattributes = {
       "techVal" : "invincibility on kill",
       "phyVal" : "Grants invinicibility for &s seconds with every kill",
       "state" : "+"
+    },
+    {
+      "stored_at" : 12,
+      "techVal" : "inflicts bleed on hit",
+      "phyVal" : "On Hit: Inflicts bleed for &s seconds",
+      "state" : "+"
+    },
+    {
+      "stored_at" : 13,
+      "techVal" : "increase max hp on kill"
+      "phyVal" : "On Kill: Gain +&s max HP",
+      "state" : "+"
     }
   ],
   "absoluteAttributes" : [
@@ -369,6 +381,18 @@ var tfattributes = {
       "techVal" : "sapper reverse-engineers",
       "phyVal" : "Reverses enemy building construction",
       "state" : "+"
-    }
+    },
+    {
+      "stored_at" : 24,
+      "techVal" : "chaotic healing",
+      "phyVal" : "On Fire: this weapon fully heals all teammates no matter where they are",
+      "state" : "C"
+    },
+    {
+      "stored_at" : 25,
+      "techVal" : "hit self on miss",
+      "phyVal" : "On Miss: Hit yourself. Idiot.",
+      "state" : "-"
+    },
   ]
 }
